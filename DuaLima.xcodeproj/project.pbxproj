@@ -12,6 +12,7 @@
 		CC9C69DD2272E92200ED0817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69DB2272E92200ED0817 /* Main.storyboard */; };
 		CC9C69DF2272E92300ED0817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69DE2272E92300ED0817 /* Assets.xcassets */; };
 		CC9C69E22272E92300ED0817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69E02272E92300ED0817 /* LaunchScreen.storyboard */; };
+		CC9C69EA2272F94100ED0817 /* SF Pro in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69E92272F94100ED0817 /* SF Pro */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CC9C69DE2272E92300ED0817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9C69E12272E92300ED0817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9C69E32272E92300ED0817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9C69E92272F94100ED0817 /* SF Pro */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF Pro"; path = "../../../../../../../Volumes/SF-Font/SF Pro"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CC9C69DB2272E92200ED0817 /* Main.storyboard */,
 				CC9C69DE2272E92300ED0817 /* Assets.xcassets */,
 				CC9C69E02272E92300ED0817 /* LaunchScreen.storyboard */,
+				CC9C69E92272F94100ED0817 /* SF Pro */,
 				CC9C69E32272E92300ED0817 /* Info.plist */,
 			);
 			path = DuaLima;
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9C69EA2272F94100ED0817 /* SF Pro in Resources */,
 				CC9C69E22272E92300ED0817 /* LaunchScreen.storyboard in Resources */,
 				CC9C69DF2272E92300ED0817 /* Assets.xcassets in Resources */,
 				CC9C69DD2272E92200ED0817 /* Main.storyboard in Resources */,

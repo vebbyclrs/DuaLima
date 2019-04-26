@@ -2,94 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Black.otf">
+      location = "group:../../../../../../Volumes/SF-Font/SF Compact">
    </FileRef>
    <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-BlackItalic.otf">
+      location = "group:../../../../../../Volumes/SF-Font/SF Compact Rounded">
    </FileRef>
    <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Bold.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-BoldItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Heavy.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-HeavyItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Light.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-LightItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Medium.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-MediumItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Regular.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-RegularItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Semibold.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-SemiboldItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Thin.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-ThinItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Ultralight.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-UltralightItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-Bold.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-BoldItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-Heavy.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-HeavyItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-Light.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-LightItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-Medium.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-MediumItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-Regular.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-RegularItalic.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-Semibold.otf">
-   </FileRef>
-   <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Text-SemiboldItalic.otf">
+      location = "group:../../../../../../Volumes/SF-Font/SF Pro">
    </FileRef>
    <FileRef
       location = "self:">

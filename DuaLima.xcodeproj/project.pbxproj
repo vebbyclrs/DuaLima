@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5773E5F3227306310056DC77 /* SF Pro in Resources */ = {isa = PBXBuildFile; fileRef = 5773E5F0227306310056DC77 /* SF Pro */; };
+		5773E5F4227306310056DC77 /* SF Compact Rounded in Resources */ = {isa = PBXBuildFile; fileRef = 5773E5F1227306310056DC77 /* SF Compact Rounded */; };
+		5773E5F5227306310056DC77 /* SF Compact in Resources */ = {isa = PBXBuildFile; fileRef = 5773E5F2227306310056DC77 /* SF Compact */; };
 		CC9C69D82272E92200ED0817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C69D72272E92200ED0817 /* AppDelegate.swift */; };
 		CC9C69DA2272E92200ED0817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C69D92272E92200ED0817 /* ViewController.swift */; };
 		CC9C69DD2272E92200ED0817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69DB2272E92200ED0817 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5773E5F0227306310056DC77 /* SF Pro */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF Pro"; path = "../../../../../Volumes/SF-Font/SF Pro"; sourceTree = "<group>"; };
+		5773E5F1227306310056DC77 /* SF Compact Rounded */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF Compact Rounded"; path = "../../../../../Volumes/SF-Font/SF Compact Rounded"; sourceTree = "<group>"; };
+		5773E5F2227306310056DC77 /* SF Compact */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF Compact"; path = "../../../../../Volumes/SF-Font/SF Compact"; sourceTree = "<group>"; };
 		CC9C69D42272E92200ED0817 /* DuaLima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuaLima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9C69D72272E92200ED0817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9C69D92272E92200ED0817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +44,9 @@
 		CC9C69CB2272E92200ED0817 = {
 			isa = PBXGroup;
 			children = (
+				5773E5F2227306310056DC77 /* SF Compact */,
+				5773E5F1227306310056DC77 /* SF Compact Rounded */,
+				5773E5F0227306310056DC77 /* SF Pro */,
 				CC9C69D62272E92200ED0817 /* DuaLima */,
 				CC9C69D52272E92200ED0817 /* Products */,
 			);
@@ -122,9 +131,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5773E5F3227306310056DC77 /* SF Pro in Resources */,
 				CC9C69E22272E92300ED0817 /* LaunchScreen.storyboard in Resources */,
 				CC9C69DF2272E92300ED0817 /* Assets.xcassets in Resources */,
 				CC9C69DD2272E92200ED0817 /* Main.storyboard in Resources */,
+				5773E5F5227306310056DC77 /* SF Compact in Resources */,
+				5773E5F4227306310056DC77 /* SF Compact Rounded in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

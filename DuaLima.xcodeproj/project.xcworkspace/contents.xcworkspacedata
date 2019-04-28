@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Compact">
+      location = "group:SF Compact">
    </FileRef>
    <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Compact Rounded">
+      location = "group:SF Compact Rounded">
    </FileRef>
    <FileRef
-      location = "group:../../../../../../Volumes/SF-Font/SF Pro">
+      location = "group:SF Pro">
    </FileRef>
    <FileRef
       location = "self:">

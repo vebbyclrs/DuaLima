@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5773E5F3227306310056DC77 /* SF Pro in Resources */ = {isa = PBXBuildFile; fileRef = 5773E5F0227306310056DC77 /* SF Pro */; };
-		5773E5F4227306310056DC77 /* SF Compact Rounded in Resources */ = {isa = PBXBuildFile; fileRef = 5773E5F1227306310056DC77 /* SF Compact Rounded */; };
-		5773E5F5227306310056DC77 /* SF Compact in Resources */ = {isa = PBXBuildFile; fileRef = 5773E5F2227306310056DC77 /* SF Compact */; };
 		CC9C69D82272E92200ED0817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C69D72272E92200ED0817 /* AppDelegate.swift */; };
 		CC9C69DA2272E92200ED0817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C69D92272E92200ED0817 /* ViewController.swift */; };
 		CC9C69DD2272E92200ED0817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69DB2272E92200ED0817 /* Main.storyboard */; };
 		CC9C69DF2272E92300ED0817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69DE2272E92300ED0817 /* Assets.xcassets */; };
 		CC9C69E22272E92300ED0817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69E02272E92300ED0817 /* LaunchScreen.storyboard */; };
+		CC9C85392276318F00891358 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C85382276318F00891358 /* RoundButton.swift */; };
+		CC9C8579227636A000891358 /* SF Pro in Resources */ = {isa = PBXBuildFile; fileRef = CC9C8578227636A000891358 /* SF Pro */; };
+		CC9C857B227636B600891358 /* SF Compact in Resources */ = {isa = PBXBuildFile; fileRef = CC9C857A227636B600891358 /* SF Compact */; };
+		CC9C857D227636BB00891358 /* SF Compact Rounded in Resources */ = {isa = PBXBuildFile; fileRef = CC9C857C227636BB00891358 /* SF Compact Rounded */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5773E5F0227306310056DC77 /* SF Pro */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF Pro"; path = "../../../../../Volumes/SF-Font/SF Pro"; sourceTree = "<group>"; };
-		5773E5F1227306310056DC77 /* SF Compact Rounded */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF Compact Rounded"; path = "../../../../../Volumes/SF-Font/SF Compact Rounded"; sourceTree = "<group>"; };
-		5773E5F2227306310056DC77 /* SF Compact */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SF Compact"; path = "../../../../../Volumes/SF-Font/SF Compact"; sourceTree = "<group>"; };
 		CC9C69D42272E92200ED0817 /* DuaLima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuaLima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9C69D72272E92200ED0817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9C69D92272E92200ED0817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +26,10 @@
 		CC9C69DE2272E92300ED0817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC9C69E12272E92300ED0817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC9C69E32272E92300ED0817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9C85382276318F00891358 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		CC9C8578227636A000891358 /* SF Pro */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SF Pro"; sourceTree = "<group>"; };
+		CC9C857A227636B600891358 /* SF Compact */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SF Compact"; sourceTree = "<group>"; };
+		CC9C857C227636BB00891358 /* SF Compact Rounded */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "SF Compact Rounded"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +46,9 @@
 		CC9C69CB2272E92200ED0817 = {
 			isa = PBXGroup;
 			children = (
-				5773E5F2227306310056DC77 /* SF Compact */,
-				5773E5F1227306310056DC77 /* SF Compact Rounded */,
-				5773E5F0227306310056DC77 /* SF Pro */,
+				CC9C857C227636BB00891358 /* SF Compact Rounded */,
+				CC9C857A227636B600891358 /* SF Compact */,
+				CC9C8578227636A000891358 /* SF Pro */,
 				CC9C69D62272E92200ED0817 /* DuaLima */,
 				CC9C69D52272E92200ED0817 /* Products */,
 			);
@@ -65,6 +67,7 @@
 			children = (
 				CC9C69D72272E92200ED0817 /* AppDelegate.swift */,
 				CC9C69D92272E92200ED0817 /* ViewController.swift */,
+				CC9C85382276318F00891358 /* RoundButton.swift */,
 				CC9C69DB2272E92200ED0817 /* Main.storyboard */,
 				CC9C69DE2272E92300ED0817 /* Assets.xcassets */,
 				CC9C69E02272E92300ED0817 /* LaunchScreen.storyboard */,
@@ -131,12 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5773E5F3227306310056DC77 /* SF Pro in Resources */,
+				CC9C857B227636B600891358 /* SF Compact in Resources */,
+				CC9C8579227636A000891358 /* SF Pro in Resources */,
 				CC9C69E22272E92300ED0817 /* LaunchScreen.storyboard in Resources */,
+				CC9C857D227636BB00891358 /* SF Compact Rounded in Resources */,
 				CC9C69DF2272E92300ED0817 /* Assets.xcassets in Resources */,
 				CC9C69DD2272E92200ED0817 /* Main.storyboard in Resources */,
-				5773E5F5227306310056DC77 /* SF Compact in Resources */,
-				5773E5F4227306310056DC77 /* SF Compact Rounded in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9C85392276318F00891358 /* RoundButton.swift in Sources */,
 				CC9C69DA2272E92200ED0817 /* ViewController.swift in Sources */,
 				CC9C69D82272E92200ED0817 /* AppDelegate.swift in Sources */,
 			);

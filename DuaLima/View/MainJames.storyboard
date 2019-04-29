@@ -16,12 +16,6 @@
         <array key="SF-Compact-Text-Regular.otf">
             <string>SFCompactText-Regular</string>
         </array>
-        <array key="SF-Pro-Display-Bold.otf">
-            <string>SFProDisplay-Bold</string>
-        </array>
-        <array key="SF-Pro-Display-Regular.otf">
-            <string>SFProDisplay-Regular</string>
-        </array>
         <array key="SF-Pro-Text-Bold.otf">
             <string>SFProText-Bold</string>
         </array>
@@ -34,172 +28,9 @@
     </customFonts>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="Zra-Kz-BZv">
-            <objects>
-                <viewController storyboardIdentifier="sbHasilYes" id="LSf-5B-9Cd" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Eo6-Kb-455">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="imgDepresiKlinis" translatesAutoresizingMaskIntoConstraints="NO" id="0L1-ri-NyI" userLabel="imgDepresiKlinis">
-                                <rect key="frame" x="128" y="506" width="267" height="267"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kamu mungkin memenuhi kriteria depresi klinis." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crs-F8-Bxk">
-                                <rect key="frame" x="36" y="59" width="287" height="255"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProText-Bold" family="SF Pro Text" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selain menggunakan Dua Lima, kami merekomendasikan kamu agar menemui dokter kejiwaan atau psikiater." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LcA-g9-c10">
-                                <rect key="frame" x="128" y="349" width="267" height="138"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Geser untuk lanjut" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSH-td-KUJ">
-                                <rect key="frame" x="81" y="816" width="252" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <gestureRecognizers/>
-                        <viewLayoutGuide key="safeArea" id="CVB-y6-nxI"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="EGG-qg-Zry" appends="YES" id="Ulo-i4-kjt"/>
-                        </connections>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="P0Q-1C-GQN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="EGG-qg-Zry"/>
-            </objects>
-            <point key="canvasLocation" x="2175" y="-713"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="CMi-Lq-JaU">
-            <objects>
-                <viewController storyboardIdentifier="sbHasilNo" id="Kzk-LS-SYj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="acN-a7-Kbm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="imgMasihOk" translatesAutoresizingMaskIntoConstraints="NO" id="mYn-yg-7kL" userLabel="imgMasihOk">
-                                <rect key="frame" x="128" y="504" width="267" height="267"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kamu masih OK!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="daX-OS-cGa">
-                                <rect key="frame" x="36" y="59" width="160" height="175"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProText-Bold" family="SF Pro Text" pointSize="40"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QBt-pE-Cip">
-                                <rect key="frame" x="128" y="263" width="267" height="188"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Berdasarkan jawaban kamu, kamu belum memenuhi kriteria depresi klinis.
-Kalau ada yang berubah, jangan ragu untuk isi lagi kuesionernya ya!</string>
-                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Geser untuk lanjut" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mea-i7-tcG">
-                                <rect key="frame" x="81" y="816" width="252" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <gestureRecognizers/>
-                        <viewLayoutGuide key="safeArea" id="WGT-ig-1ls"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="LVN-fI-VFY" appends="YES" id="ueh-eg-b04"/>
-                        </connections>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gxp-sI-InL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="LVN-fI-VFY"/>
-            </objects>
-            <point key="canvasLocation" x="2909" y="-713"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Kbc-Wb-Gwf">
-            <objects>
-                <viewController storyboardIdentifier="sbReply" id="lLj-ds-Pha" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Rft-AY-u4r">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goc-ij-0VY">
-                                <rect key="frame" x="28" y="77" width="90" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="  Kembali" image="Chevron">
-                                    <color key="titleColor" red="0.94246917959999998" green="0.58376294370000004" blue="0.3724935949" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOT-Wy-s1b" customClass="RoundButton" customModule="DuaLima" customModuleProvider="target">
-                                <rect key="frame" x="310" y="110" width="76" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94246917959999998" green="0.58376294370000004" blue="0.3724935949" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Balas">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="7"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Balas ke ~" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Muz-4k-a7f">
-                                <rect key="frame" x="21" y="177" width="373" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="23"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LTM-Xt-PrT">
-                                <rect key="frame" x="21" y="218" width="365" height="298"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <gestureRecognizers/>
-                        <viewLayoutGuide key="safeArea" id="13a-O2-9gb"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="AZb-vL-n7y" appends="YES" id="R4o-3b-oPw"/>
-                        </connections>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="l83-p7-cSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="AZb-vL-n7y"/>
-            </objects>
-            <point key="canvasLocation" x="1473.913043478261" y="853.79464285714278"/>
-        </scene>
-        <!--Page View Controller-->
-        <scene sceneID="3hX-E2-n4c">
-            <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="4gG-sZ-ml6" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vEW-hf-GpU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-849" y="-713"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="sbWelcome" modalTransitionStyle="flipHorizontal" id="BYZ-38-t0r" customClass="ViewController" customModule="DuaLima" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DuaLima" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -211,6 +42,13 @@ Kalau ada yang berubah, jangan ragu untuk isi lagi kuesionernya ya!</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Geser untuk lanjut" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOU-ww-rNG">
+                                <rect key="frame" x="163" y="850" width="89" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Selamat Datang di Dua Lima" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzB-dB-4Y2">
                                 <rect key="frame" x="69" y="476" width="276" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -218,34 +56,19 @@ Kalau ada yang berubah, jangan ragu untuk isi lagi kuesionernya ya!</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7G7-iW-sjf">
-                                <rect key="frame" x="100" y="810" width="215" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="Ketuk untuk lanjut"/>
-                                <connections>
-                                    <segue destination="rSe-Ma-dI4" kind="show" id="YVe-2W-qD7"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="Ktd-jQ-MPr" appends="YES" id="TUR-zy-WPe"/>
-                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="Ktd-jQ-MPr"/>
             </objects>
-            <point key="canvasLocation" x="-112" y="-713"/>
+            <point key="canvasLocation" x="114" y="130"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dSa-3U-zgy">
             <objects>
-                <viewController storyboardIdentifier="sbWelcome2" modalTransitionStyle="flipHorizontal" id="rSe-Ma-dI4" customClass="ViewController" customModule="DuaLima" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rSe-Ma-dI4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="64z-uC-WOD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,6 +92,13 @@ Anonim ;)</string>
                                 <color key="textColor" red="0.27863866090774536" green="0.3214682936668396" blue="0.36863213777542114" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Geser untuk lanjut" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="75S-aX-FpA">
+                                <rect key="frame" x="163" y="850" width="89" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMC-Bw-UxT">
                                 <rect key="frame" x="112" y="533" width="282" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -277,35 +107,19 @@ Anonim ;)</string>
                                 <color key="textColor" red="0.25116953253746033" green="0.2901042103767395" blue="0.33333763480186462" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2J-BP-ebT">
-                                <rect key="frame" x="100" y="810" width="215" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="Ketuk untuk lanjut"/>
-                                <connections>
-                                    <segue destination="0ev-qE-bqo" kind="show" id="cQF-LG-YzQ"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="oXj-Ph-aP3"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="AlM-Ij-GCd" appends="YES" id="cOC-au-rCO"/>
-                        </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="dbp-DH-xCi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NNA-3b-kDS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="AlM-Ij-GCd"/>
             </objects>
-            <point key="canvasLocation" x="628" y="-713"/>
+            <point key="canvasLocation" x="763.768115942029" y="142.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fMU-Vn-E1r">
             <objects>
-                <viewController storyboardIdentifier="sbWelcome3" modalTransitionStyle="flipHorizontal" id="0ev-qE-bqo" customClass="ViewController" customModule="DuaLima" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0ev-qE-bqo" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nak-My-i2x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -326,31 +140,26 @@ Anonim ;)</string>
                                 <color key="textColor" red="0.27863866090774536" green="0.3214682936668396" blue="0.36863213777542114" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVq-XS-WhN">
-                                <rect key="frame" x="100" y="810" width="215" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Geser untuk lanjut" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvQ-lm-uig">
+                                <rect key="frame" x="163" y="850" width="89" height="12"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="17"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <state key="normal" title="Ketuk untuk lanjut"/>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="NXK-Rq-wf0"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="Fbl-5Q-E3u" appends="YES" id="Y5p-tn-b3u"/>
-                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xFd-Ip-xf1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="Fbl-5Q-E3u"/>
             </objects>
-            <point key="canvasLocation" x="1381" y="-713"/>
+            <point key="canvasLocation" x="1473.913043478261" y="142.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wcS-8W-jIy">
             <objects>
-                <viewController storyboardIdentifier="sbRegister" id="eXT-ZW-7yp" sceneMemberID="viewController">
+                <viewController id="eXT-ZW-7yp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Fla-xk-Qi4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -383,61 +192,133 @@ Anonim ;)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwL-wG-kby" customClass="RoundButton" customModule="DuaLima" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NwL-wG-kby">
                                 <rect key="frame" x="142" y="450" width="130" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.99133557081222534" green="0.58893460035324097" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="15"/>
                                 <color key="tintColor" red="0.99390968651760891" green="0.9672411911198443" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Daftar"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="7"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="Wuk-EK-xCv"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="a4N-HH-egj" appends="YES" id="kJ9-aY-0fL"/>
-                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QVf-nE-ma4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="a4N-HH-egj"/>
             </objects>
-            <point key="canvasLocation" x="-4" y="854"/>
+            <point key="canvasLocation" x="69.565217391304358" y="857.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controllersb Regis Name-->
         <scene sceneID="2X2-TI-FGq">
             <objects>
-                <viewController id="1aA-ze-3F0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="sbRegisName" id="1aA-ze-3F0" customClass="ViewControllersbRegisName" customModule="DuaLima" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0jA-Hb-QZu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Terima kasih telah melakukan registrasi Berikut adalah nama pengguna Anda :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjc-w5-h6Q">
-                                <rect key="frame" x="51" y="426" width="313" height="44"/>
+                                <rect key="frame" x="51" y="407" width="313" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vAt-tI-U21">
+                                <rect key="frame" x="115" y="459" width="185" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="3F2-AP-UkN"/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="icb-eo-dS1" appends="YES" id="wqd-uQ-0k1"/>
-                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="randomUserName" destination="vAt-tI-U21" id="FwE-QJ-rRV"/>
+                        <outlet property="tfRandomUsername" destination="vAt-tI-U21" id="qCE-2Q-IIg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EEB-VZ-vG8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="icb-eo-dS1"/>
             </objects>
-            <point key="canvasLocation" x="735" y="854"/>
+            <point key="canvasLocation" x="773.91304347826087" y="854.46428571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zra-Kz-BZv">
+            <objects>
+                <viewController storyboardIdentifier="sbLogin" id="LSf-5B-9Cd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Eo6-Kb-455">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOGIN" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3k-eg-cgd">
+                                <rect key="frame" x="173" y="177" width="117" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFCompactText-Bold" family="SF Compact Text" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kuesioner" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6QD-1X-Tz0">
+                                <rect key="frame" x="83" y="301" width="140" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tersimpan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZ0-dZ-XtZ">
+                                <rect key="frame" x="83" y="414" width="145" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Registrasi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFi-ww-tSp">
+                                <rect key="frame" x="83" y="357" width="140" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keluar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzz-9t-gbB">
+                                <rect key="frame" x="83" y="473" width="89" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="SFCompactText-Regular" family="SF Compact Text" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line 3-1" translatesAutoresizingMaskIntoConstraints="NO" id="ev4-Tw-hfF">
+                                <rect key="frame" x="83" y="329" width="331" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.99133557080000001" green="0.58893460040000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line 3-1" translatesAutoresizingMaskIntoConstraints="NO" id="Exi-Tv-AdW">
+                                <rect key="frame" x="83" y="386" width="335" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.99133557080000001" green="0.58893460040000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line 3-1" translatesAutoresizingMaskIntoConstraints="NO" id="eAt-iW-9gV">
+                                <rect key="frame" x="83" y="445" width="331" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.99133557080000001" green="0.58893460040000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line 3-1" translatesAutoresizingMaskIntoConstraints="NO" id="WMn-zx-gW5">
+                                <rect key="frame" x="83" y="501" width="331" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.99133557080000001" green="0.58893460040000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Contact" translatesAutoresizingMaskIntoConstraints="NO" id="vAD-It-v1z">
+                                <rect key="frame" x="307" y="132" width="87" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="CVB-y6-nxI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P0Q-1C-GQN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.565217391304358" y="1609.8214285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="rNi-rf-8sk">
@@ -499,7 +380,7 @@ Anonim ;)</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ZJ-PZ-rh1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4" y="56"/>
+            <point key="canvasLocation" x="2190" y="143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="J9Z-Dy-je4">
@@ -554,7 +435,7 @@ Anonim ;)</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="va6-lG-1ja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="735" y="56"/>
+            <point key="canvasLocation" x="2942" y="143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="77P-Sc-96M">
@@ -597,7 +478,7 @@ Anonim ;)</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oDx-52-AW6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="56"/>
+            <point key="canvasLocation" x="3690" y="143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8v7-Ab-xRF">
@@ -640,7 +521,7 @@ Anonim ;)</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pf0-yG-nhR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2338" y="56"/>
+            <point key="canvasLocation" x="4413" y="143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MtK-Xc-ghq">
@@ -683,7 +564,7 @@ Anonim ;)</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wPA-KD-QV0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3146" y="56"/>
+            <point key="canvasLocation" x="5142" y="143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XIU-Rn-HLz">
@@ -726,7 +607,7 @@ Anonim ;)</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bg9-Ga-JKD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4091" y="56"/>
+            <point key="canvasLocation" x="5864" y="143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RaW-Lx-OA5">
@@ -769,7 +650,7 @@ Anonim ;)</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qln-04-clO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4894" y="56"/>
+            <point key="canvasLocation" x="6583" y="143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6b0-IY-sCS">
@@ -812,13 +693,13 @@ Anonim ;)</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BmB-u9-h3e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5742" y="56"/>
+            <point key="canvasLocation" x="7293" y="143"/>
         </scene>
-
     </scenes>
     <resources>
-        <image name="Chevron" width="13" height="21"/>
         <image name="Close_Icon_Circle-512" width="76" height="77"/>
+        <image name="Contact" width="14.5" height="14.5"/>
+        <image name="Line 3-1" width="72.5" height="1"/>
         <image name="Rectangle" width="310" height="310"/>
         <image name="Rectangle1" width="634" height="218"/>
         <image name="Rectangle2" width="317" height="109"/>

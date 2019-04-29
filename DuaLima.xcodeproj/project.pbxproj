@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC23F3572276FEC00026091F /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23F3562276FEC00026091F /* PageViewController.swift */; };
+		CC23F3592276FF3C0026091F /* ViewContWelcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23F3582276FF3C0026091F /* ViewContWelcome.swift */; };
 		CC9C69D82272E92200ED0817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C69D72272E92200ED0817 /* AppDelegate.swift */; };
 		CC9C69DA2272E92200ED0817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C69D92272E92200ED0817 /* ViewController.swift */; };
 		CC9C69DD2272E92200ED0817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69DB2272E92200ED0817 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC23F3562276FEC00026091F /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CC23F3582276FF3C0026091F /* ViewContWelcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContWelcome.swift; sourceTree = "<group>"; };
 		CC9C69D42272E92200ED0817 /* DuaLima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuaLima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9C69D72272E92200ED0817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9C69D92272E92200ED0817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +69,8 @@
 			children = (
 				CC9C69D72272E92200ED0817 /* AppDelegate.swift */,
 				CC9C69D92272E92200ED0817 /* ViewController.swift */,
+				CC23F3562276FEC00026091F /* PageViewController.swift */,
+				CC23F3582276FF3C0026091F /* ViewContWelcome.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,7 +182,9 @@
 			files = (
 				CC9C85392276318F00891358 /* RoundButton.swift in Sources */,
 				CC9C69DA2272E92200ED0817 /* ViewController.swift in Sources */,
+				CC23F3592276FF3C0026091F /* ViewContWelcome.swift in Sources */,
 				CC9C69D82272E92200ED0817 /* AppDelegate.swift in Sources */,
+				CC23F3572276FEC00026091F /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

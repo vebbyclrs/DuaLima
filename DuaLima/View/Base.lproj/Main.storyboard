@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lLj-ds-Pha">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -180,15 +180,29 @@ Kalau ada yang berubah, jangan ragu untuk isi lagi kuesionernya ya!</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l83-p7-cSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="AZb-vL-n7y"/>
             </objects>
-            <point key="canvasLocation" x="1473.913043478261" y="853.79464285714278"/>
+            <point key="canvasLocation" x="1949" y="854"/>
         </scene>
-        <!--Page View Controller-->
-        <scene sceneID="3hX-E2-n4c">
+        <!--Root View Controller-->
+        <scene sceneID="XA1-kk-NcC">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="4gG-sZ-ml6" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vEW-hf-GpU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="cfh-nI-uda" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fuo-L6-TWc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <outlet property="dataSource" destination="cfh-nI-uda" id="rsG-tW-qhh"/>
+                            <outlet property="delegate" destination="cfh-nI-uda" id="Ixa-xi-lHa"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="aFI-V7-BiL"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="HKV-v7-n3I"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jJ0-CV-VaL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-920" y="143"/>
+            <point key="canvasLocation" x="-1070" y="143"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -230,6 +244,7 @@ Kalau ada yang berubah, jangan ragu untuk isi lagi kuesionernya ya!</string>
                             <outletCollection property="gestureRecognizers" destination="Ktd-jQ-MPr" appends="YES" id="TUR-zy-WPe"/>
                         </connections>
                     </view>
+                    <navigationItem key="navigationItem" id="ErD-yc-dT0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="Ktd-jQ-MPr"/>

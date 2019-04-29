@@ -43,6 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC23F3522276FD610026091F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C85382276318F00891358 /* RoundButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC23F3542276FD770026091F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C69DB2272E92200ED0817 /* Main.storyboard */,
+				CC9C69E02272E92300ED0817 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CC23F3552276FD830026091F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CC9C69D72272E92200ED0817 /* AppDelegate.swift */,
+				CC9C69D92272E92200ED0817 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		CC9C69CB2272E92200ED0817 = {
 			isa = PBXGroup;
 			children = (
@@ -65,13 +91,11 @@
 		CC9C69D62272E92200ED0817 /* DuaLima */ = {
 			isa = PBXGroup;
 			children = (
-				CC9C69D72272E92200ED0817 /* AppDelegate.swift */,
-				CC9C69D92272E92200ED0817 /* ViewController.swift */,
-				CC9C85382276318F00891358 /* RoundButton.swift */,
-				CC9C69DB2272E92200ED0817 /* Main.storyboard */,
-				CC9C69DE2272E92300ED0817 /* Assets.xcassets */,
-				CC9C69E02272E92300ED0817 /* LaunchScreen.storyboard */,
+				CC23F3552276FD830026091F /* Controller */,
+				CC23F3542276FD770026091F /* View */,
+				CC23F3522276FD610026091F /* Model */,
 				CC9C69E32272E92300ED0817 /* Info.plist */,
+				CC9C69DE2272E92300ED0817 /* Assets.xcassets */,
 			);
 			path = DuaLima;
 			sourceTree = "<group>";

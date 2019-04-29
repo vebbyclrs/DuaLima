@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC23F35B227730C40026091F /* MainJames.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC23F35A227730C40026091F /* MainJames.storyboard */; };
 		CC9C69D82272E92200ED0817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C69D72272E92200ED0817 /* AppDelegate.swift */; };
 		CC9C69DA2272E92200ED0817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9C69D92272E92200ED0817 /* ViewController.swift */; };
 		CC9C69DD2272E92200ED0817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9C69DB2272E92200ED0817 /* Main.storyboard */; };
@@ -20,7 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC23F35A227730C40026091F /* MainJames.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainJames.storyboard; sourceTree = "<group>"; };
 		CC9C69D42272E92200ED0817 /* DuaLima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuaLima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9C69D72272E92200ED0817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC9C69D92272E92200ED0817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				CC9C69DB2272E92200ED0817 /* Main.storyboard */,
-				CC23F35A227730C40026091F /* MainJames.storyboard */,
 				CC9C69E02272E92300ED0817 /* LaunchScreen.storyboard */,
 			);
 			path = View;
@@ -163,7 +160,6 @@
 			files = (
 				CC9C857B227636B600891358 /* SF Compact in Resources */,
 				CC9C8579227636A000891358 /* SF Pro in Resources */,
-				CC23F35B227730C40026091F /* MainJames.storyboard in Resources */,
 				CC9C69E22272E92300ED0817 /* LaunchScreen.storyboard in Resources */,
 				CC9C857D227636BB00891358 /* SF Compact Rounded in Resources */,
 				CC9C69DF2272E92300ED0817 /* Assets.xcassets in Resources */,
